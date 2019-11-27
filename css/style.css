@@ -73,3 +73,16 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
 }
+
+.rl_gallery{
+    margin: 10px 50px;
+}
+.rl_gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+.rl_gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
