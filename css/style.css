@@ -75,14 +75,27 @@ ul li:hover ul li{
 }
 
 .rl_gallery{
-    margin: 10px 50px;
-}
+     margin: 10px 50px;
+ }
 .rl_gallery img {
     transition: 1s;
     padding: 15px;
     width: 200px;
 }
 .rl_gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.dog_gallery{
+    margin: 10px 50px;
+}
+.dog_gallery img {
+    transition: 1s;
+    padding: 15px;
+    height: 20%;
+    width: 20%;
+}
+.dog_gallery img:hover{
     filter: grayscale(100%);
     transform: scale(1.1);
 }
