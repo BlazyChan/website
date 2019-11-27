@@ -1,17 +1,55 @@
 body{
+    list-style: none;
     background: azure;
     background-size: cover;
     font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px auto;
+    width: 810px;
+    font-size: 20px;
+}
+header{
+    background-color: greenyellow;
+    border: 5px solid mediumpurple;
+}
+
+footer{
+    background-color: greenyellow;
+    border: 5px solid mediumpurple;
+}
+
+.bar{
+    height: 40px;
+    margin-top: -5px;
+    background-color: darkgreen;
+    border: 5px solid mediumpurple;
+    top: 185px;
+}
+.main {
+    height: fit-content;
+    background-color: darkgreen;
+    border: 20px solid rebeccapurple;
+    color: pink;
+    font-size: 24px;
 }
 ul{
+    list-style: none;
+
+}
+
+ul{
+    text-align: center;
     margin: 0px;
     padding: 0px;
     list-style: none;
+    position: center;
+
 }
 
 ul li{
     float: left;
-    width: 200px;
+    width: 266.6666px;
     height: 40px;
     background-color: black;
     line-height: 40px;
@@ -29,4 +67,9 @@ ul li a:hover{
 }
 ul li ul li{
     display: none;
+    opacity: 0.8;
+
+}
+ul li:hover ul li{
+    display: block;
 }
