@@ -103,3 +103,7 @@ ul li:hover ul li{
     font-size: 24;
     color: azure;
 }
+
+.special{
+    color: palevioletred;
+}
